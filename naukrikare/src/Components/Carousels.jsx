@@ -20,7 +20,7 @@ function Carousel() {
         pagination={{
           clickable: true,
         }}
-        style={{ width: "80%", margin: "auto" }}
+        style={{ width: "80%", margin: "auto" ,marginTop:"30px"}}
         modules={[Pagination]}
         className="mySwiper"
       >

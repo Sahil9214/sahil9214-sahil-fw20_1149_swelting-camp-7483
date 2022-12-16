@@ -5,6 +5,9 @@ import Carousel2 from "./Carousels2";
 import { Button } from "@chakra-ui/react";
 import {Link} from "react-router-dom"
 import Discovery from "./Discovery";
+import Carousels3 from "./Carousels3";
+import SponserComapny from "./SponserComapny";
+import GrowYour from "./GrowYour";
 const TopCompanies = () => {
   return (
     <div style={{ marginTop: "100px" }}>
@@ -46,7 +49,11 @@ const TopCompanies = () => {
           </div>
         </Link>
       </div>
-      <Discovery/>
+      <Carousels3/>
+      <SponserComapny/>
+      <div style={{marginTop:"50px"}}>
+        <GrowYour/>
+      </div>
     </div>
   );
 };
