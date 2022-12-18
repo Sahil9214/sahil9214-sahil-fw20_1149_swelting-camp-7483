@@ -1,13 +1,5 @@
 import React from "react";
-import { Pagination } from "swiper";
-import { ChevronRightIcon } from "@chakra-ui/icons";
 
-import { Swiper, SwiperSlide } from "swiper/react";
-
-import "swiper/css";
-import "swiper/css/pagination";
-import { Text } from "@chakra-ui/react";
-import Slider from "react-slick";
 import Slidercarousel from "./Slidercarousel";
 const GrowYour = () => {
   return (
@@ -20,7 +12,7 @@ const GrowYour = () => {
     >
       <div
         style={{
-          width: "240px",
+          width: "30%",
           marginRight: " 31px",
           paddingTop: "24px",
         }}
@@ -63,10 +55,19 @@ const GrowYour = () => {
           alt="new"
         />
       </div>
-    <div>
-    <Slidercarousel/>
-    </div>
-    
+      <div
+        style={{
+          width: "70%",
+        }}
+      >
+        <Slidercarousel />
+      </div>
+      <div>
+        <img
+          src="https://user-images.githubusercontent.com/106021674/208293916-27909f92-ce93-4ca4-a984-3b4b07fa6b1d.png"
+          alt="image"
+        />
+      </div>
     </div>
   );
 };
