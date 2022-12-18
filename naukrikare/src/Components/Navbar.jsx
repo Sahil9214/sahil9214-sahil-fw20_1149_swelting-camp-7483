@@ -909,16 +909,17 @@ const Navbar = () => {
         backgroundColor: "#fff",
         flexWrap: "nowrap",
       }}
-    >
+     >
+    {/* //https://user-images.githubusercontent.com/106021674/207571761-527e3ab6-d4ab-4171-bf95-215123a94420.png */}
       <div style={{ display: "flex", justifyContent: "space-evenly" }}>
         <div style={{ display: "flex", width: "10%" }}>
           <Box>
             <Image
-              src="https://user-images.githubusercontent.com/106021674/207571761-527e3ab6-d4ab-4171-bf95-215123a94420.png"
+              src="https://user-images.githubusercontent.com/106021674/208310541-9ffce0f5-b9a1-4e2b-981f-4d2d6193a516.png"
               alt="logo"
-              width="250px"
-              height="130px"
-              style={{ marginTop: "-40px" }}
+              width="180px"
+              height="100px"
+          
             />
           </Box>
         </div>
