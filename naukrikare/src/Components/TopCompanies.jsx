@@ -54,6 +54,18 @@ const TopCompanies = () => {
       <div style={{marginTop:"50px"}}>
         <GrowYour/>
       </div>
+      <div style={{
+        marginTop:"40px"
+      }}>
+        <img src="https://user-images.githubusercontent.com/106021674/208147968-3a7a8e56-1c4e-46f2-93ea-1838fdcc286d.png" alt="image" />
+      </div>
+      <div
+      style={{
+        marginTop:"40px"
+      }}
+      >
+        <img src="https://user-images.githubusercontent.com/106021674/208294214-c6e24697-a0e8-4e8a-933f-80787f96f2ba.png" alt="img" />
+      </div>
     </div>
   );
 };

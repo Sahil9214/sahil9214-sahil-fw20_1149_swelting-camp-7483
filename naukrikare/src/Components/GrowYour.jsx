@@ -62,12 +62,7 @@ const GrowYour = () => {
       >
         <Slidercarousel />
       </div>
-      <div>
-        <img
-          src="https://user-images.githubusercontent.com/106021674/208293916-27909f92-ce93-4ca4-a984-3b4b07fa6b1d.png"
-          alt="image"
-        />
-      </div>
+    
     </div>
   );
 };

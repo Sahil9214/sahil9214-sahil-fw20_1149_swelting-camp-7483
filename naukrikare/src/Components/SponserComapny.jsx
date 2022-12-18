@@ -990,11 +990,7 @@ const SponserComapny = () => {
           </div>
         </div>
       </div>
-      <div style={{
-        marginTop:"40px"
-      }}>
-        <img src="https://user-images.githubusercontent.com/106021674/208147968-3a7a8e56-1c4e-46f2-93ea-1838fdcc286d.png" alt="image" />
-      </div>
+     
     </div>
   );
 };

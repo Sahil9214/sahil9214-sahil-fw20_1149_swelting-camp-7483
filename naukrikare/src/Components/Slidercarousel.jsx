@@ -34,6 +34,7 @@ const Slidercarousel = () => {
             textoverflow: "ellipsis",
 
             maxheight: "18px",
+            alignItems:"center"
           }}
         >
           Data Science
@@ -43,6 +44,7 @@ const Slidercarousel = () => {
             marginTop: "5px",
             height: "139px",
             marginBottom: "10px",
+            alignItems:"center"
           }}
         >
           <Text
@@ -60,6 +62,9 @@ const Slidercarousel = () => {
             style={{
               fontfamily: "Inter",
               display: "-webkit-box",
+              fontSize: "14px",
+              justifyContent:"center",
+              alignItems:"center"
             }}
           >
             Learn in demand AI skills like Deep learning, NLP, Computer vision
@@ -92,6 +97,7 @@ const Slidercarousel = () => {
             textoverflow: "ellipsis",
 
             maxheight: "18px",
+            alignItems:"center"
           }}
         >
           Cloud Technologies
@@ -101,6 +107,7 @@ const Slidercarousel = () => {
             marginTop: "5px",
             height: "139px",
             marginBottom: "10px",
+            alignItems:"center"
           }}
         >
           <Text
@@ -110,14 +117,19 @@ const Slidercarousel = () => {
               lineHeight: "22px",
               maxHeight: " 56px",
               color: "#1B2437",
+              justifyContent:"center",
+              alignItems:"center"
             }}
           >
-            AWS
+          Digital Marketing
           </Text>
           <Text
             style={{
               fontfamily: "Inter",
               display: "-webkit-box",
+              fontSize: "14px",
+              justifyContent:"center",
+              alignItems:"center"
             }}
           >
             Learn in demand AI skills like Deep learning, NLP, Computer vision
@@ -150,6 +162,7 @@ const Slidercarousel = () => {
             textoverflow: "ellipsis",
 
             maxheight: "18px",
+            alignItems:"center"
           }}
         >
           Programming
@@ -159,6 +172,8 @@ const Slidercarousel = () => {
             marginTop: "5px",
             height: "139px",
             marginBottom: "10px",
+            alignItems:"center",
+          
           }}
         >
           <Text
@@ -168,14 +183,19 @@ const Slidercarousel = () => {
               lineHeight: "22px",
               maxHeight: " 56px",
               color: "#1B2437",
+             
+            
             }}
           >
-            AWS
+           Bussiness Analyst
           </Text>
           <Text
             style={{
               fontfamily: "Inter",
               display: "-webkit-box",
+              fontSize: "14px",
+            
+              padding:"15px 0px"
             }}
           >
             Learn in demand AI skills like Deep learning, NLP, Computer vision
@@ -199,6 +219,8 @@ const Slidercarousel = () => {
             marginTop: "5px",
             height: "139px",
             marginBottom: "10px",
+            alignItems:"center",
+       
           }}
         >
           <Text
@@ -208,6 +230,7 @@ const Slidercarousel = () => {
               lineHeight: "22px",
               maxHeight: " 56px",
               color: "#1B2437",
+          
             }}
           >
             AWS
@@ -216,6 +239,8 @@ const Slidercarousel = () => {
             style={{
               fontfamily: "Inter",
               display: "-webkit-box",
+              fontSize: "14px",
+        
             }}
           >
             Learn in demand AI skills like Deep learning, NLP, Computer vision
@@ -246,11 +271,11 @@ const Slidercarousel = () => {
             overflow: "hidden",
 
             textoverflow: "ellipsis",
-
+            alignItems:"center",
             maxheight: "18px",
           }}
         >
-       Digital Marketing
+          Digital Marketing
         </div>
 
         <div
@@ -258,6 +283,7 @@ const Slidercarousel = () => {
             marginTop: "5px",
             height: "139px",
             marginBottom: "10px",
+            alignItems:"center"
           }}
         >
           <Text
@@ -267,6 +293,7 @@ const Slidercarousel = () => {
               lineHeight: "22px",
               maxHeight: " 56px",
               color: "#1B2437",
+             
             }}
           >
             Stategy and LEadership
@@ -275,6 +302,8 @@ const Slidercarousel = () => {
             style={{
               fontfamily: "Inter",
               display: "-webkit-box",
+              fontSize: "14px",
+       
             }}
           >
             Learn in demand AI skills like Deep learning, NLP, Computer vision
@@ -298,8 +327,8 @@ const Slidercarousel = () => {
             marginTop: "5px",
             height: "139px",
             marginBottom: "10px",
-            justifyContent:"center",
-            alignItem:"center"
+            justifyContent: "center",
+            alignItem: "center",
           }}
         >
           <Text
@@ -311,12 +340,13 @@ const Slidercarousel = () => {
               color: "#1B2437",
             }}
           >
-       Data Structure Algorithms
+            Data Structure Algorithms
           </Text>
           <Text
             style={{
               fontfamily: "Inter",
               display: "-webkit-box",
+              fontSize: "14px",
             }}
           >
             Learn in demand AI skills like Deep learning, NLP, Computer vision

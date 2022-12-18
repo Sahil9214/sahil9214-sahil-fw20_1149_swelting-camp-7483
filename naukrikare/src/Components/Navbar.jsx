@@ -52,13 +52,15 @@ function BasicUsage() {
           <ModalHeader></ModalHeader>
           <ModalCloseButton />
           <ModalBody style={{ display: "flex" }}>
-            <ol style={{ marginLeft: "20px", boxShadow: "1px 0 0 #d3e1ea" }}>
+            <ol style={{ marginLeft: "20px", boxShadow: "1px 0 0 #d3e1ea",marginLeft:"20px" }}>
               <div
                 style={{
-                  fontSize: "11px",
+                  fontSize: "15px",
                   color: "black",
                   boxShadow: "1px 0 0 #d3e1ea",
+                 
                   marginTop: "16px",
+                  marginLeft:"-10px"
                 }}
               >
                 Popular categories
@@ -111,12 +113,14 @@ function BasicUsage() {
                 Engineering jobs
               </li>
             </ol>
-            <ol style={{ marginLeft: "20px", boxShadow: "1px 0 0 #d3e1ea" }}>
+            <ol style={{ marginLeft: "20px", boxShadow: "1px 0 0 #d3e1ea",marginLeft:"20px" }}>
               <div
                 style={{
-                  fontSize: "11px",
+                  fontSize: "15px",
                   color: "black",
                   marginTop: "16px",
+                 
+                  marginLeft:"-10px"
                 }}
               >
                 Jobs in Demand
@@ -177,13 +181,15 @@ function BasicUsage() {
                 <div>part-Time jobs</div>
               </li>
             </ol>
-            <ol style={{ marginLeft: "20px", boxShadow: "1px 0 0 #d3e1ea" }}>
+            <ol style={{ marginLeft: "20px", boxShadow: "1px 0 0 #d3e1ea",marginLeft:"20px" }}>
               <div
                 style={{
-                  fontSize: "11px",
+                  fontSize: "15px",
                   color: "black",
                   boxShadow: "1px 0 0 #d3e1ea",
                   marginTop: "16px",
+                  marginLeft:"-10px"
+                 
                 }}
               >
                 Jobs By location
@@ -193,7 +199,7 @@ function BasicUsage() {
                 style={{
                   fontSize: "10px",
                   color: "#44557A",
-                  marginTop: "16px",
+                 
                 }}
               >
                 Jobs in dehli
@@ -245,13 +251,14 @@ function BasicUsage() {
               </li>
             </ol>
 
-            <ol style={{ marginLeft: "20px", boxShadow: "1px 0 0 #d3e1ea" }}>
+            <ol style={{ marginLeft: "20px", boxShadow: "1px 0 0 #d3e1ea" ,marginLeft:"20px"}}>
               <div
                 style={{
-                  fontSize: "11px",
+                  fontSize: "15px",
                   color: "black",
                   boxShadow: "1px 0 0 #d3e1ea",
                   marginTop: "16px",
+                  marginLeft:"-10px"
                 }}
               >
                 Explore More Jobs
@@ -353,12 +360,14 @@ function Services() {
           <ModalHeader></ModalHeader>
           <ModalCloseButton />
           <ModalBody style={{ display: "flex" }}>
-            <ol style={{ marginLeft: "20px", boxShadow: "1px 0 0 #d3e1ea" }}>
+            <ol style={{ marginLeft: "20px", boxShadow: "1px 0 0 #d3e1ea",marginLeft:"20px" }}>
               <div
                 style={{
-                  fontSize: "11px",
+                  fontSize: "15px",
                   color: "black",
                   boxShadow: "1px 0 0 #d3e1ea",
+                  marginTop: "16px",
+                  marginLeft:"-10px"
                 }}
               >
                 Resume Writing
@@ -396,11 +405,13 @@ function Services() {
                 Resume Crtique
               </li>
             </ol>
-            <ol style={{ marginLeft: "20px", boxShadow: "1px 0 0 #d3e1ea" }}>
+            <ol style={{ marginLeft: "20px", boxShadow: "1px 0 0 #d3e1ea",marginLeft:"20px" }}>
               <div
                 style={{
-                  fontSize: "11px",
+                  fontSize: "15px",
                   color: "black",
+                  marginTop: "16px",
+                  marginLeft:"-10px"
                 }}
               >
                 Get Requierment Attention
@@ -437,14 +448,7 @@ function Services() {
                 <div>Job Seacrh Booster</div>{" "}
               </li>
 
-              <div
-                style={{
-                  fontSize: "10px",
-                  color: "black",
-                }}
-              >
-                Monthly Subscription
-              </div>
+             
 
               <li
                 style={{
@@ -457,12 +461,14 @@ function Services() {
                 <div>Basic & Premium plan</div>
               </li>
             </ol>
-            <ol style={{ marginLeft: "20px", boxShadow: "1px 0 0 #d3e1ea" }}>
+            <ol style={{ marginLeft: "20px", boxShadow: "1px 0 0 #d3e1ea",marginLeft:"20px" }}>
               <div
                 style={{
-                  fontSize: "11px",
+                  fontSize: "15px",
                   color: "black",
                   boxShadow: "1px 0 0 #d3e1ea",
+                  marginTop: "16px",
+                  marginLeft:"-10px"
                 }}
               >
                 Jobs By location
@@ -525,12 +531,14 @@ function Services() {
               </li>
             </ol>
 
-            <ol style={{ marginLeft: "20px", boxShadow: "1px 0 0 #d3e1ea" }}>
+            <ol style={{ marginLeft: "20px", boxShadow: "1px 0 0 #d3e1ea",marginLeft:"20px" }}>
               <div
                 style={{
-                  fontSize: "11px",
+                  fontSize: "15px",
                   color: "black",
                   boxShadow: "1px 0 0 #d3e1ea",
+                  marginTop: "16px",
+                  marginLeft:"-10px"
                 }}
               >
                 Learn & upskill
@@ -632,16 +640,18 @@ function Companies() {
           <ModalHeader></ModalHeader>
           <ModalCloseButton />
           <ModalBody style={{ display: "flex" }}>
-            <ol style={{ marginLeft: "10px", boxShadow: "1px 0 0 #d3e1ea" }}>
+            <ol style={{ marginLeft: "10px", boxShadow: "1px 0 0 #d3e1ea",marginLeft:"20px" }}>
               <div
                 style={{
-                  fontSize: "11px",
+                  fontSize: "15px",
                   color: "black",
                   boxShadow: "1px 0 0 #d3e1ea",
                   marginTop: "16px",
+                  marginLeft:"-10px"
+                 
                 }}
               >
-                Popular categories
+               Explore categories
               </div>
 
               <li
@@ -650,7 +660,7 @@ function Companies() {
                   color: "#44557A",
                   marginTop: "16px",
                 }}
-              ></li>
+              >     <div style={{ wordWrap: "break-word" }}>Unicorn</div></li>
 
               <li
                 style={{
@@ -659,7 +669,7 @@ function Companies() {
                   marginTop: "16px",
                 }}
               >
-                <div style={{ wordWrap: "break-word" }}>Sale jobs</div>
+                <div style={{ wordWrap: "break-word" }}>MNC</div>
               </li>
               <li
                 style={{
@@ -668,7 +678,7 @@ function Companies() {
                   marginTop: "16px",
                 }}
               >
-                Data Science Jobs
+               StartUp
               </li>
               <li
                 style={{
@@ -677,7 +687,7 @@ function Companies() {
                   marginTop: "16px",
                 }}
               >
-                Hr Jobs
+               Product Based
               </li>
               <li
                 style={{
@@ -686,18 +696,20 @@ function Companies() {
                   marginTop: "16px",
                 }}
               >
-                Engineering jobs
+                Internet
               </li>
             </ol>
             <ol style={{ marginLeft: "20px", boxShadow: "1px 0 0 #d3e1ea" }}>
               <div
                 style={{
-                  fontSize: "11px",
+                  fontSize: "16px",
                   color: "black",
                   marginTop: "16px",
+                  marginTop: "16px",
+                  marginLeft:"-10px"
                 }}
               >
-                Jobs in Demand
+         Explore Collections
               </div>
 
               <li
@@ -764,13 +776,15 @@ function Companies() {
             >
               <div
                 style={{
-                  fontSize: "11px",
+                  fontSize: "15px",
                   color: "black",
                   boxShadow: "1px 0 0 #d3e1ea",
                   marginTop: "16px",
+                  marginTop: "16px",
+                  marginLeft:"-10px"
                 }}
               >
-                Jobs By location
+             Research companies
               </div>
 
               <li
@@ -780,7 +794,7 @@ function Companies() {
                   marginTop: "16px",
                 }}
               >
-                Jobs in dehli
+             Interview Question
               </li>
               <li
                 style={{
@@ -789,7 +803,7 @@ function Companies() {
                   marginTop: "16px",
                 }}
               >
-                MNC jobs
+              Company Salary
               </li>
               <li
                 style={{
@@ -798,7 +812,7 @@ function Companies() {
                   marginTop: "16px",
                 }}
               >
-                Jobs in mumbai
+               Comapny Review
               </li>
               <li
                 style={{
@@ -816,85 +830,12 @@ function Companies() {
                   marginTop: "16px",
                 }}
               >
-                Jobs in Chennai
+               Salary Calculator
               </li>
-              <li
-                style={{
-                  fontSize: "10px",
-                  color: "#44557A",
-                  marginTop: "16px",
-                }}
-              >
-                Jobs in Pune
-              </li>
+              
             </ol>
 
-            <ol style={{ marginLeft: "16px", boxShadow: "1px 0 0 #d3e1ea" }}>
-              <div
-                style={{
-                  fontSize: "11px",
-                  color: "black",
-                  boxShadow: "1px 0 0 #d3e1ea",
-                  marginTop: "16px",
-                }}
-              >
-                Explore More Jobs
-              </div>
-
-              <li
-                style={{
-                  fontSize: "10px",
-                  color: "#44557A",
-                  marginTop: "16px",
-                }}
-              >
-                Jobs by Categories
-              </li>
-              <li
-                style={{
-                  fontSize: "10px",
-                  color: "#44557A",
-                  marginTop: "16px",
-                }}
-              >
-                Jobs by skills
-              </li>
-              <li
-                style={{
-                  fontSize: "10px",
-                  color: "#44557A",
-                  marginTop: "16px",
-                }}
-              >
-                Job by location
-              </li>
-              <li
-                style={{
-                  fontSize: "10px",
-                  color: "#44557A",
-                  marginTop: "16px",
-                }}
-              >
-                Jobs in desitination
-              </li>
-              <li
-                style={{
-                  fontSize: "10px",
-                  color: "#44557A",
-                  marginTop: "16px",
-                }}
-              >
-                Jobs in Chennai
-              </li>
-              <li
-                style={{
-                  fontSize: "10px",
-                  color: "#44557A",
-                }}
-              >
-                Create free job alert
-              </li>
-            </ol>
+          
           </ModalBody>
 
           {/* <ModalFooter>
@@ -947,10 +888,9 @@ function DrawerExample() {
           <EmpoyeeLogin />
 
           <DrawerFooter>
-            <Button variant="outline" mr={3} onClick={onClose}>
+            {/* <Button variant="outline" mr={3} onClick={onClose}>
               Cancel
-            </Button>
-            <Button colorScheme="blue">Save</Button>
+            </Button> */}
           </DrawerFooter>
         </DrawerContent>
       </Drawer>
@@ -989,7 +929,7 @@ const Navbar = () => {
         </div>
         <div style={{ width: "50%" }}>
           <DrawerExample />
-          <Link>
+          <Link to="/register">
             {" "}
             <Button
               style={{
