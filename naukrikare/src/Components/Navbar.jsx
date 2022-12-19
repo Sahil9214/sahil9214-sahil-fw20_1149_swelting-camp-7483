@@ -3,6 +3,8 @@ import { Image, Box } from "@chakra-ui/react";
 import EmpoyeeLogin from "../Pages/EmpoyeeLogin";
 import { Link } from "react-router-dom";
 import { Divider } from "@chakra-ui/react";
+import { AppContext } from "../Context/AuthContextProvider";
+import { SunIcon } from "@chakra-ui/icons";
 import {
   Modal,
   ModalOverlay,
@@ -52,15 +54,21 @@ function BasicUsage() {
           <ModalHeader></ModalHeader>
           <ModalCloseButton />
           <ModalBody style={{ display: "flex" }}>
-            <ol style={{ marginLeft: "20px", boxShadow: "1px 0 0 #d3e1ea",marginLeft:"20px" }}>
+            <ol
+              style={{
+                marginLeft: "20px",
+                boxShadow: "1px 0 0 #d3e1ea",
+                marginLeft: "20px",
+              }}
+            >
               <div
                 style={{
                   fontSize: "15px",
                   color: "black",
                   boxShadow: "1px 0 0 #d3e1ea",
-                 
+
                   marginTop: "16px",
-                  marginLeft:"-10px"
+                  marginLeft: "-10px",
                 }}
               >
                 Popular categories
@@ -113,14 +121,20 @@ function BasicUsage() {
                 Engineering jobs
               </li>
             </ol>
-            <ol style={{ marginLeft: "20px", boxShadow: "1px 0 0 #d3e1ea",marginLeft:"20px" }}>
+            <ol
+              style={{
+                marginLeft: "20px",
+                boxShadow: "1px 0 0 #d3e1ea",
+                marginLeft: "20px",
+              }}
+            >
               <div
                 style={{
                   fontSize: "15px",
                   color: "black",
                   marginTop: "16px",
-                 
-                  marginLeft:"-10px"
+
+                  marginLeft: "-10px",
                 }}
               >
                 Jobs in Demand
@@ -181,15 +195,20 @@ function BasicUsage() {
                 <div>part-Time jobs</div>
               </li>
             </ol>
-            <ol style={{ marginLeft: "20px", boxShadow: "1px 0 0 #d3e1ea",marginLeft:"20px" }}>
+            <ol
+              style={{
+                marginLeft: "20px",
+                boxShadow: "1px 0 0 #d3e1ea",
+                marginLeft: "20px",
+              }}
+            >
               <div
                 style={{
                   fontSize: "15px",
                   color: "black",
                   boxShadow: "1px 0 0 #d3e1ea",
                   marginTop: "16px",
-                  marginLeft:"-10px"
-                 
+                  marginLeft: "-10px",
                 }}
               >
                 Jobs By location
@@ -199,7 +218,6 @@ function BasicUsage() {
                 style={{
                   fontSize: "10px",
                   color: "#44557A",
-                 
                 }}
               >
                 Jobs in dehli
@@ -251,14 +269,20 @@ function BasicUsage() {
               </li>
             </ol>
 
-            <ol style={{ marginLeft: "20px", boxShadow: "1px 0 0 #d3e1ea" ,marginLeft:"20px"}}>
+            <ol
+              style={{
+                marginLeft: "20px",
+                boxShadow: "1px 0 0 #d3e1ea",
+                marginLeft: "20px",
+              }}
+            >
               <div
                 style={{
                   fontSize: "15px",
                   color: "black",
                   boxShadow: "1px 0 0 #d3e1ea",
                   marginTop: "16px",
-                  marginLeft:"-10px"
+                  marginLeft: "-10px",
                 }}
               >
                 Explore More Jobs
@@ -360,14 +384,20 @@ function Services() {
           <ModalHeader></ModalHeader>
           <ModalCloseButton />
           <ModalBody style={{ display: "flex" }}>
-            <ol style={{ marginLeft: "20px", boxShadow: "1px 0 0 #d3e1ea",marginLeft:"20px" }}>
+            <ol
+              style={{
+                marginLeft: "20px",
+                boxShadow: "1px 0 0 #d3e1ea",
+                marginLeft: "20px",
+              }}
+            >
               <div
                 style={{
                   fontSize: "15px",
                   color: "black",
                   boxShadow: "1px 0 0 #d3e1ea",
                   marginTop: "16px",
-                  marginLeft:"-10px"
+                  marginLeft: "-10px",
                 }}
               >
                 Resume Writing
@@ -405,13 +435,19 @@ function Services() {
                 Resume Crtique
               </li>
             </ol>
-            <ol style={{ marginLeft: "20px", boxShadow: "1px 0 0 #d3e1ea",marginLeft:"20px" }}>
+            <ol
+              style={{
+                marginLeft: "20px",
+                boxShadow: "1px 0 0 #d3e1ea",
+                marginLeft: "20px",
+              }}
+            >
               <div
                 style={{
                   fontSize: "15px",
                   color: "black",
                   marginTop: "16px",
-                  marginLeft:"-10px"
+                  marginLeft: "-10px",
                 }}
               >
                 Get Requierment Attention
@@ -448,8 +484,6 @@ function Services() {
                 <div>Job Seacrh Booster</div>{" "}
               </li>
 
-             
-
               <li
                 style={{
                   fontSize: "10px",
@@ -461,14 +495,20 @@ function Services() {
                 <div>Basic & Premium plan</div>
               </li>
             </ol>
-            <ol style={{ marginLeft: "20px", boxShadow: "1px 0 0 #d3e1ea",marginLeft:"20px" }}>
+            <ol
+              style={{
+                marginLeft: "20px",
+                boxShadow: "1px 0 0 #d3e1ea",
+                marginLeft: "20px",
+              }}
+            >
               <div
                 style={{
                   fontSize: "15px",
                   color: "black",
                   boxShadow: "1px 0 0 #d3e1ea",
                   marginTop: "16px",
-                  marginLeft:"-10px"
+                  marginLeft: "-10px",
                 }}
               >
                 Jobs By location
@@ -531,14 +571,20 @@ function Services() {
               </li>
             </ol>
 
-            <ol style={{ marginLeft: "20px", boxShadow: "1px 0 0 #d3e1ea",marginLeft:"20px" }}>
+            <ol
+              style={{
+                marginLeft: "20px",
+                boxShadow: "1px 0 0 #d3e1ea",
+                marginLeft: "20px",
+              }}
+            >
               <div
                 style={{
                   fontSize: "15px",
                   color: "black",
                   boxShadow: "1px 0 0 #d3e1ea",
                   marginTop: "16px",
-                  marginLeft:"-10px"
+                  marginLeft: "-10px",
                 }}
               >
                 Learn & upskill
@@ -640,18 +686,23 @@ function Companies() {
           <ModalHeader></ModalHeader>
           <ModalCloseButton />
           <ModalBody style={{ display: "flex" }}>
-            <ol style={{ marginLeft: "10px", boxShadow: "1px 0 0 #d3e1ea",marginLeft:"20px" }}>
+            <ol
+              style={{
+                marginLeft: "10px",
+                boxShadow: "1px 0 0 #d3e1ea",
+                marginLeft: "20px",
+              }}
+            >
               <div
                 style={{
                   fontSize: "15px",
                   color: "black",
                   boxShadow: "1px 0 0 #d3e1ea",
                   marginTop: "16px",
-                  marginLeft:"-10px"
-                 
+                  marginLeft: "-10px",
                 }}
               >
-               Explore categories
+                Explore categories
               </div>
 
               <li
@@ -660,7 +711,10 @@ function Companies() {
                   color: "#44557A",
                   marginTop: "16px",
                 }}
-              >     <div style={{ wordWrap: "break-word" }}>Unicorn</div></li>
+              >
+                {" "}
+                <div style={{ wordWrap: "break-word" }}>Unicorn</div>
+              </li>
 
               <li
                 style={{
@@ -678,7 +732,7 @@ function Companies() {
                   marginTop: "16px",
                 }}
               >
-               StartUp
+                StartUp
               </li>
               <li
                 style={{
@@ -687,7 +741,7 @@ function Companies() {
                   marginTop: "16px",
                 }}
               >
-               Product Based
+                Product Based
               </li>
               <li
                 style={{
@@ -706,10 +760,10 @@ function Companies() {
                   color: "black",
                   marginTop: "16px",
                   marginTop: "16px",
-                  marginLeft:"-10px"
+                  marginLeft: "-10px",
                 }}
               >
-         Explore Collections
+                Explore Collections
               </div>
 
               <li
@@ -781,10 +835,10 @@ function Companies() {
                   boxShadow: "1px 0 0 #d3e1ea",
                   marginTop: "16px",
                   marginTop: "16px",
-                  marginLeft:"-10px"
+                  marginLeft: "-10px",
                 }}
               >
-             Research companies
+                Research companies
               </div>
 
               <li
@@ -794,7 +848,7 @@ function Companies() {
                   marginTop: "16px",
                 }}
               >
-             Interview Question
+                Interview Question
               </li>
               <li
                 style={{
@@ -803,7 +857,7 @@ function Companies() {
                   marginTop: "16px",
                 }}
               >
-              Company Salary
+                Company Salary
               </li>
               <li
                 style={{
@@ -812,7 +866,7 @@ function Companies() {
                   marginTop: "16px",
                 }}
               >
-               Comapny Review
+                Comapny Review
               </li>
               <li
                 style={{
@@ -830,12 +884,9 @@ function Companies() {
                   marginTop: "16px",
                 }}
               >
-               Salary Calculator
+                Salary Calculator
               </li>
-              
             </ol>
-
-          
           </ModalBody>
 
           {/* <ModalFooter>
@@ -899,6 +950,8 @@ function DrawerExample() {
 }
 
 const Navbar = () => {
+  const { theme, togggleTheme } = React.useContext(AppContext);
+
   return (
     <div
       style={{
@@ -909,8 +962,8 @@ const Navbar = () => {
         backgroundColor: "#fff",
         flexWrap: "nowrap",
       }}
-     >
-    {/* //https://user-images.githubusercontent.com/106021674/207571761-527e3ab6-d4ab-4171-bf95-215123a94420.png */}
+    >
+      {/* //https://user-images.githubusercontent.com/106021674/207571761-527e3ab6-d4ab-4171-bf95-215123a94420.png */}
       <div style={{ display: "flex", justifyContent: "space-evenly" }}>
         <div style={{ display: "flex", width: "10%" }}>
           <Box>
@@ -919,7 +972,6 @@ const Navbar = () => {
               alt="logo"
               width="180px"
               height="100px"
-          
             />
           </Box>
         </div>
@@ -972,6 +1024,9 @@ const Navbar = () => {
             </MenuList>
           </Menu>
         </div>
+        <Button onClick={togggleTheme}>
+          <SunIcon />
+        </Button>
       </div>
     </div>
   );

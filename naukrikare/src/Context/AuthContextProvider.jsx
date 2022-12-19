@@ -5,6 +5,11 @@ export const AppContext = React.createContext();
 const AuthContextProvider = ({ children }) => {
   const [isAuth, setIsAuth] = React.useState(false);
   const [token, setToken] = React.useState(null);
+  const [theme, setTheme] =React.useState("Dark");
+  const togggleTheme = () => {
+    setTheme(theme === "Dark" ? "Light" : "Dark");
+  };
+
   const login = (tok) => {
     setIsAuth(true);
     setToken(tok);
@@ -14,7 +19,7 @@ const AuthContextProvider = ({ children }) => {
     setToken(null);
   };
 
-  const value={isAuth,token,Logout,login}
+  const value={isAuth,token,Logout,login ,togggleTheme,theme}
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;
 };
 
